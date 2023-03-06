@@ -31,7 +31,8 @@ public static void main(String[] args) {
     diagonal(array);
 }
 private static void printArray(int[] inArray){
-        for (int y:inArray) System.out.print(y + " ");System.out.println();
+        for (int y:inArray) System.out.print(y + " ");
+        System.out.println();
 }
 
 private static void print2dArray(int[][] in2dArray){
