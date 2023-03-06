@@ -26,7 +26,7 @@ public static void main(String[] args) {
     sixx2();
 
     int[][] array = new int[4][4]; // [[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, x], [0, 0, 0, 1]]
-    int x = array[2][3]; // не понял зачем нам этот элимент
+    int x = array[2][3]; // не понял зачем нам этот элемент
 
     diagonal(array);
 }
