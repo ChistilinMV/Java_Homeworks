@@ -4,8 +4,12 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 public class Homework02 {
+    //Создать файл с названием file.txt. Если файл уже есть,
+    // то создавать не надо Записать в него Слово "TEXT" 100 раз
     public static void main(String[] args) {
+
         System.out.println(buildString(6, 'a', 'b'));
+
         String fileName = "file.txt";
         Path path = Paths.get(fileName);
         try {
