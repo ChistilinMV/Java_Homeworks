@@ -3,12 +3,12 @@ GeekBrains Java Homeworks
 
 # Intellij IDEA snippets
 
-**class** </br>
+**class** - создаёт класс по имени файла</br>
 **main** or **psvm** `public static void main(String[] args){ }`</br>
 **sout** `System.out.println();`</br>
+**psfs** `public static final String`</br>
 **fori** `for (int i = 0; i < ; i++) { }`</br>
 **ifn** `if (var == null) { }`</br>
-**psfs** `public static final String`</br>
 
 # Intellij IDEA Hotkeys
 
@@ -17,5 +17,5 @@ GeekBrains Java Homeworks
 < **F4** > - исходник метода</br>
 < **Выделяем слово и Shift + F6** > - Меняет код в одном месте и он меняется во всех вхождениях одновременно</br>
 < **Ctrl + D** > - Дублирование строки</br>
-< **Ctrl + D** > - Удаление строки</br>
+< **Ctrl + Y** > - Удаление строки</br>
 < **Alt/Ctrl + Shift + ↑** > или < **Alt/Ctrl + Shift + ↓** > - Позволяет переместить строку, в которой расположен текстовый курсор (несколько строк при выделении) соответственно выше и ниже текущей позиции.</br>
