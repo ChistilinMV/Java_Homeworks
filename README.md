@@ -3,7 +3,6 @@ GeekBrains Java Homeworks
 
 # Intellij IDEA snippets
 
-**class** - создаёт класс по имени файла</br>
 **main** or **psvm** `public static void main(String[] args){ }`</br>
 **sout** `System.out.println();`</br>
 **psfs** `public static final String`</br>
