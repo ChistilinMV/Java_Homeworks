@@ -7,8 +7,8 @@ public class Homework03 {
     //Дан список ArrayList<Integer> целых чисел. Удалить из него нечетные числа.
     public static ArrayList<Integer> delODD(ArrayList<Integer> list2del) {
         Iterator<Integer> var1 = list2del.iterator();
-        while(var1.hasNext()) {
-            int i = (Integer)var1.next();
+        while(var1.hasNext()) { // Warning:(10, 9) The loop can be replaced with 'Collection.removeIf'
+            int i = var1.next(); // int i = (Integer)var1.next() - redundant cast (Integer)
             if (i % 2 != 0) {
                 var1.remove();
             }
@@ -29,8 +29,8 @@ public class Homework03 {
     // ["string", "s", "my_value"]
     public static ArrayList<String> delDigi(ArrayList<String> list2del) {
         Iterator<String> var1 = list2del.iterator();
-        while(var1.hasNext()) {
-            String i = (String)var1.next();
+        while(var1.hasNext()) { // Warning:(32, 9) The loop can be replaced with 'Collection.removeIf'
+            String i = var1.next(); // String i = (String)var1.next(); - redundant cast (string)
             if (isNumeric(i)) {
                 var1.remove();
             }
