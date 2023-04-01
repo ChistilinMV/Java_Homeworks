@@ -3,7 +3,7 @@ import java.util.Objects;
 public class Person {
         static {
                 idCount = 1;
-        }
+        } // блок статической инициализации
         private static int idCount;
         int idPers;
         String name;
@@ -14,7 +14,7 @@ public class Person {
         {
                 idPers = idCount;
                 idCount++;
-        }
+        } // блок инициализации экземпляра
 
         public Person(String name, String surname, int age, char gender, String occupation) {
                 this.name = name;
