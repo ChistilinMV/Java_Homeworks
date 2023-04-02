@@ -15,6 +15,7 @@ public class Person {
                 idPers = idCount;
                 idCount++;
         } // блок инициализации экземпляра
+        // поломался git, проверяем
 
         public Person(String name, String surname, int age, char gender, String occupation) {
                 this.name = name;
